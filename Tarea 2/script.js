@@ -1,0 +1,8 @@
+let p1= "La tecnología web, con HTML, CSS y JavaScript, ha sido clave en mi formación en arte y comunicación digital porque abre muchas posibilidades creativas e interactivas en el mundo digital. Estas herramientas permiten diseñar espacios virtuales donde se mezclan la estética, la narrativa y la experiencia del usuario, haciendo que el arte sea más dinámico y accesible. Pero, a la vez, su estructura puede sentirse un poco rígida cuando se trata de romper con los formatos convencionales. Esto me hace preguntarme qué tanto estas tecnologías pueden adaptarse a propuestas más experimentales sin perder su esencia técnica.";
+let p2= "Desde un punto de vista creativo, HTML, CSS y JavaScript tienen mucho potencial para desarrollar proyectos interactivos, instalaciones digitales y narrativas no lineales que rompen con lo tradicional. Sin embargo, trabajar con código puede hacer que el proceso artístico se sienta más técnico que espontáneo, lo que a veces limita la libertad creativa. Ahí surge la duda: ¿hasta qué punto saber programar es una ventaja y cuándo empieza a ser una barrera? Creo que lo importante es encontrar un equilibrio entre usar estas herramientas y seguir explorando formas de expresión sin sentirse atado a sus reglas.";
+
+document.getElementById ('parr1').innerHTML= p1;
+document.getElementById ('parr2').innerHTML= p2;
+
+console.log(p1.length);
+console.log(p2.length);
