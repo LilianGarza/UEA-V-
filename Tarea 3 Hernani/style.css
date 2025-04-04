@@ -1,0 +1,46 @@
+/* Estilo general */
+body {
+    background-image: url('assets/fondo.jpg');
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    color: #fff; 
+
+h1 {
+    color: #5e90a3;
+    text-align: center;
+}
+
+div {
+    margin: 20px;
+}
+
+.imagen-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+}
